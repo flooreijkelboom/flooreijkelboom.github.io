@@ -10,7 +10,7 @@ first_name: Floor
 last_name: Eijkelboom
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: ''
 
 # Status emoji
 status:
@@ -34,18 +34,16 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:floor.eijkelboom@meta.com'
+    url: 'mailto:eijkelboomfloor@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/FloorEijkelboom
+    url: https://twitter.com/FEijkelboom
   - icon: brands/github
     url: https://github.com/flooreijkelboom
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/flooreijkelboom/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=flooreijkelboom
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - Generative AI
@@ -64,13 +62,13 @@ education:
     button:
       text: 'Research Profile'
       url: 'https://www.uva.nl/en/profile/e/i/f.eijkelboom/f.eijkelboom.html'
-  - area: MSc in Artificial Intelligence
+  - area: MSc in Artificial Intelligence (Cum Laude)
     institution: University of Amsterdam
     date_start: 2021-09-01
     date_end: 2023-08-31
     summary: |
       Specialized in machine learning, deep learning, and AI research. Focused on generative models and their theoretical foundations.
-  - area: BSc in Artificial Intelligence
+  - area: BSc in Artificial Intelligence (Cum Laude)
     institution: Utrecht University
     date_start: 2018-09-01
     date_end: 2021-08-31
