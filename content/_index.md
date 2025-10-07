@@ -29,10 +29,17 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: hero
+    content:
+      title: Featured Publications
+      text: |
+        For a complete and up-to-date list of publications, please visit my <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Google Scholar</a>.
+    design:
+      css_class: text-center
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: ''
       filters:
         folders:
           - publications
