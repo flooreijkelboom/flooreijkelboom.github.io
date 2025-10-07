@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🐋
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Candidate Generative AI
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Amsterdam
+    url: https://www.uva.nl/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -48,14 +48,15 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Generative AI
+  - Creativity
+  - Physics-Inspired ML
+  - Probabilistic Inference
+  - Philosophy
 
 education:
   - area: PhD in Artificial Intelligence
-    institution: University of Amsterdam (UvA)
+    institution: University of Amsterdam
     date_start: 2023-09-01
     date_end: ''
     summary: |
@@ -64,7 +65,7 @@ education:
       text: 'Research Profile'
       url: 'https://www.uva.nl/en/profile/e/i/f.eijkelboom/f.eijkelboom.html'
   - area: MSc in Artificial Intelligence
-    institution: University of Amsterdam (UvA)
+    institution: University of Amsterdam
     date_start: 2021-09-01
     date_end: 2023-08-31
     summary: |
@@ -77,22 +78,14 @@ education:
       Comprehensive foundation in AI, machine learning, computer science, and mathematics. Graduated with distinction.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: PhD Candidate in Generative AI
+    company_name: University of Amsterdam
+    company_url: 'https://www.uva.nl/'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2023-09-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Conducting research in generative AI under the supervision of Prof. Jan-Willem van de Meent and Prof. Max Welling. Focus on advancing the state-of-the-art in generative models and their applications.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -162,4 +155,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Floor Eijkelboom is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Floor is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am a **PhD candidate in generative modeling** at the University of Amsterdam, supervised by **Jan-Willem van de Meent** and **Max Welling**. My research explores **probabilistic inference**, **flow matching**, and **creativity** in deep learning. I developed **Variational Flow Matching**, a framework that unifies diffusion and flow models through variational inference. My goal is to create more **creative models** that produce meaningful, original outputs.
