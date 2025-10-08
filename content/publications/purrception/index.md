@@ -13,7 +13,7 @@ authors:
   - Max Welling
   - Jan-Willem van de Meent
   - Mohammad Mahdi Derakhshani
-  - Floor Eijkelboom
+  - admin
 
 
 # Author notes (optional)
