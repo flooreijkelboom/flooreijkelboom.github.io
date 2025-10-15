@@ -45,11 +45,11 @@ sections:
         ## Preprint
 
         **[Purrception: Variational Flow Matching for Vector-Quantized Image Generation](https://arxiv.org/abs/2510.01478)**  
-        Răzvan-Andrei Matişan, Vincent Tao Hu, Grigory Bartosh, Björn Ommer, Cees GM Snoek, Max Welling, Jan-Willem van de Meent, Mohammad Mahdi Derakhshani, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>  
+        Răzvan-Andrei Matişan, Vincent Tao Hu, Grigory Bartosh, Björn Ommer, Cees GM Snoek, Max Welling, Jan-Willem van de Meent, Mohammad Mahdi Derakhshani*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>  
         *arXiv preprint*
 
         **[Riemannian Variational Flow Matching for Material and Protein Design](https://arxiv.org/abs/2502.12981)**  
-        Olga Zaghen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Alison Pouplin, Cong Liu, Max Welling, Jan-Willem van de Meent, Erik J. Bekkers  
+        Olga Zaghen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Alison Pouplin*, Cong Liu, Max Welling, Jan-Willem van de Meent, Erik J. Bekkers  
         *arXiv preprint*
 
         **Discovering Lie Groups with Flow Matching**  
@@ -59,7 +59,7 @@ sections:
         ## Published
 
         **[Controlled Generation with Equivariant Variational Flow Matching](https://arxiv.org/abs/2506.18340)**  
-        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Heiko Zimmermann, Sharvaree Vadgama, Erik J Bekkers, Max Welling, Christian A Naesseth, Jan-Willem van de Meent  
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Heiko Zimmermann, Sharvaree Vadgama, Erik J Bekkers, Max Welling, Christian A Naesseth*, Jan-Willem van de Meent* 
         *ICML 2025*
 
         **[Exponential Family Variational Flow Matching for Tabular Data Generation](https://arxiv.org/abs/2506.05940)**  
@@ -72,7 +72,7 @@ sections:
 
 
         **[Variational Flow Matching for Graph Generation](https://arxiv.org/abs/2406.04843)**  
-        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Jan-Willem van de Meent, Max Welling  
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>*, Grigory Bartosh*, Christian A. Naesseth, Max Welling, Jan-Willem van de Meent
         *NeurIPS 2024*
 
         **[Clifford Group Equivariant Simplicial Message Passing Networks](https://arxiv.org/abs/2402.10011)**  
