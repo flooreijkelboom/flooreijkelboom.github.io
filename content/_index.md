@@ -59,11 +59,11 @@ sections:
         ## Published
 
         **[Controlled Generation with Equivariant Variational Flow Matching](https://arxiv.org/abs/2506.18340)**  
-        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Heiko Zimmermann, Sharvaree Vadgama, Erik J Bekkers, Max Welling, Christian A Naesseth*, Jan-Willem van de Meent* 
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Heiko Zimmermann, Sharvaree Vadgama, Erik J Bekkers, Max Welling, Christian A Naesseth*, Jan-Willem van de Meent*  
         *ICML 2025*
 
         **[Exponential Family Variational Flow Matching for Tabular Data Generation](https://arxiv.org/abs/2506.05940)**  
-        Andrés Guzmán-Cordero*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>*, Jan-Willem van de Meent  
+        Andrés Guzmán-Cordero*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Jan-Willem van de Meent  
         *ICML 2025*
 
         **[Towards Variational Flow Matching on General Geometries](https://arxiv.org/abs/2502.12981)**  
@@ -72,7 +72,7 @@ sections:
 
 
         **[Variational Flow Matching for Graph Generation](https://arxiv.org/abs/2406.04843)**  
-        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>*, Grigory Bartosh*, Christian A. Naesseth, Max Welling, Jan-Willem van de Meent
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Grigory Bartosh*, Christian A. Naesseth, Max Welling, Jan-Willem van de Meent  
         *NeurIPS 2024*
 
         **[Clifford Group Equivariant Simplicial Message Passing Networks](https://arxiv.org/abs/2402.10011)**  
