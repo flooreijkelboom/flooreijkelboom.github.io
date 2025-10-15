@@ -7,6 +7,6 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
+  - name: Featured Publications
     url: /#papers
     weight: 11

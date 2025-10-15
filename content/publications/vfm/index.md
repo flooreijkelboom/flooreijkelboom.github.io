@@ -1,30 +1,26 @@
 ---
-title: 'Riemannian Variational Flow Matching for Material and Protein Design'
+title: 'Variational Flow Matching for Graph Generation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Olga Zaghen
   - admin
-  - Alison Pouplin
-  - Cong Liu
+  - Grigory Bartosh
+  - Christian A. Naesseth
   - Max Welling
   - Jan-Willem van de Meent
-  - Erik J. Bekkers
 
 
 # Author notes (optional)
 author_notes:
-  - ''
   - 'Equal contribution'
   - 'Equal contribution'
-  - ''
   - ''
   - ''
   - ''
 
-date: '2025-10-01T00:00:00Z'
+date: '2024-05-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -35,19 +31,16 @@ publishDate: '2017-01-01T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: arXiv preprint
+publication: Neurips 2024
 # publication_short: In *Arxiv*
 
-abstract: We present Riemannian Gaussian Variational Flow Matching (RG-VFM), a geometric extension of Variational Flow Matching (VFM) for generative modeling on manifolds. In Euclidean space, predicting endpoints (VFM), velocities (FM), or noise (diffusion) are largely equivalent due to affine interpolations. On curved manifolds this equivalence breaks down, and we hypothesize that endpoint prediction provides a stronger learning signal by directly minimizing geodesic distances. Building on this insight, we derive a variational flow matching objective based on Riemannian Gaussian distributions, applicable to manifolds with closed-form geodesics. We formally analyze its relationship to Riemannian Flow Matching (RFM), exposing that the RFM objective lacks a curvature-dependent penalty - encoded via Jacobi fields - that is naturally present in RG-VFM. Experiments on synthetic spherical and hyperbolic benchmarks, as well as real-world tasks in material and protein generation, demonstrate that RG-VFM more effectively captures manifold structure and improves downstream performance over Euclidean and velocity-based baselines.
+abstract: We present a formulation of flow matching as variational inference, which we refer to as variational flow matching (VFM). We use this formulation to develop CatFlow, a flow matching method for categorical data that is easy to implement, computationally efficient, and achieves strong results on graph generation tasks. In VFM, the objective is to approximate the posterior probability path, which is a distribution over possible end points of a trajectory. VFM admits both the original flow matching objective and the CatFlow objective as special cases. We also relate VFM to score-based models, in which the dynamics are stochastic rather than deterministic, and derive a bound on the model likelihood based on a reweighted VFM objective. We evaluate CatFlow on one abstract graph generation task and two molecular generation tasks. In all cases, CatFlow exceeds or matches performance of the current state-of-the-art models.
 
 
-
-
-# Summary. An optional shortened abstract.
-summary: We derive a variational objective for flow matching on manifolds with closed-form geodesics and test it on material and protein backbone generation.
+summary: We apply variational flow matching to VQ latent image generation through a hybrid discrete-continuous approach for improved image generation.
 
 tags:
-  - arXiv Preprint 2025
+  - Neurips 2024
 
 # Display this page in the Featured widget?
 featured: true
@@ -60,7 +53,7 @@ featured: true
 # Custom links
 links:
   - type: pdf
-    url: "https://arxiv.org/abs/2502.12981"
+    url: "https://arxiv.org/abs/2406.04843"
 #   - type: code
 #     url: https://github.com/HugoBlox/hugo-blox-builder
 #   - type: dataset

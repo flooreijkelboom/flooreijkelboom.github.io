@@ -30,21 +30,59 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: hero
+    id: papers
     content:
       title: Featured Publications
       text: |
-        For a complete and up-to-date list of publications, please visit my <a href="https://scholar.google.com/citations?user=flooreijkelboom" target="_blank">Google Scholar</a>.
+        For more details, visit my <a href="https://scholar.google.com/citations?user=flooreijkelboom" target="_blank" style="font-weight: bold; color: #2961ea;">Google Scholar</a>.
     design:
       css_class: text-center
-  - block: collection
-    id: papers
+  - block: markdown
     content:
       title: ''
-      filters:
-        folders:
-          - publications
-        featured_only: true
+      text: |
+
+        ## Preprint
+
+        **[Purrception: Variational Flow Matching for Vector-Quantized Image Generation](https://arxiv.org/abs/2510.01478)**  
+        Răzvan-Andrei Matişan, Vincent Tao Hu, Grigory Bartosh, Björn Ommer, Cees GM Snoek, Max Welling, Jan-Willem van de Meent, Mohammad Mahdi Derakhshani, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>  
+        *arXiv preprint*
+
+        **[Riemannian Variational Flow Matching for Material and Protein Design](https://arxiv.org/abs/2502.12981)**  
+        Olga Zaghen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Alison Pouplin, Cong Liu, Max Welling, Jan-Willem van de Meent, Erik J. Bekkers  
+        *arXiv preprint*
+
+        **Discovering Lie Groups with Flow Matching**  
+        Jung Yeon Park, Yuxuan Chen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Jan-Willem van de Meent, Lawson L.S. Wong, Robin Walters  
+        *Under review*
+
+        ## Published
+
+        **[Controlled Generation with Equivariant Variational Flow Matching](https://arxiv.org/abs/2506.18340)**  
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Heiko Zimmermann, Sharvaree Vadgama, Erik J Bekkers, Max Welling, Christian A Naesseth, Jan-Willem van de Meent  
+        *ICML 2025*
+
+        **[Exponential Family Variational Flow Matching for Tabular Data Generation](https://arxiv.org/abs/2506.05940)**  
+        Andrés Guzmán-Cordero*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>*, Jan-Willem van de Meent  
+        *ICML 2025*
+
+        **[Towards Variational Flow Matching on General Geometries](https://arxiv.org/abs/2502.12981)**  
+        Olga Zaghen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Alison Pouplin, Erik J Bekkers  
+        *ICLR 2025 Workshop on Deep Generative Model in Machine Learning (Best Paper award)*
+
+
+        **[Variational Flow Matching for Graph Generation](https://arxiv.org/abs/2406.04843)**  
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Jan-Willem van de Meent, Max Welling  
+        *NeurIPS 2024*
+
+        **[Clifford Group Equivariant Simplicial Message Passing Networks](https://arxiv.org/abs/2402.10011)**  
+        Cong Liu*, David Ruhe*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Patrick Forré  
+        *ICLR 2024*
+
+        **[E(n) Equivariant Message Passing Simplicial Networks](https://arxiv.org/abs/2305.07100)**  
+        <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Rob Hesselink, Erik J Bekkers  
+        *ICML 2024*
     design:
-      view: article-grid
-      columns: 2
+      css_class: 'container-fluid'
+      css_style: 'max-width: 1200px; margin: 0 auto; padding: 0 2rem; width: 90%;'
 ---
