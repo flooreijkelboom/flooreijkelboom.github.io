@@ -47,15 +47,11 @@ sections:
         **Categorical Flow Maps**  
         Daan Roos*, Oscar Davis*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Michael Bronstein, Max Welling, İsmail İlkan Ceylan, Luca Ambrogioni, Jan-Willem van de Meent
 
-        *Under review*
-
 
         **Discovering Lie Groups with Flow Matching**  
         Jung Yeon Park, Yuxuan Chen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Jan-Willem van de Meent, Lawson L.S. Wong, Robin Walters  
-        
-        *Under review*
 
-        ## Published
+        *Under review*
 
 
         **[Purrception: Variational Flow Matching for Vector-Quantized Image Generation](https://arxiv.org/abs/2510.01478)**  
