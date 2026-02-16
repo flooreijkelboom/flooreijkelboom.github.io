@@ -117,40 +117,6 @@ skills:
         percent: 70
         icon: book-open
 
-languages:
-  - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
 ---
-Here's the updated markdown:
-
 I am a **PhD candidate in generative AI** at the University of Amsterdam, supervised by [**Jan-Willem van de Meent**](https://jwvdm.github.io/) and [**Max Welling**](https://amlab.science.uva.nl/people/MaxWelling/). My research focuses on flow- and diffusion-based generative models. I develop simple, general, and **efficient methods for learning flows over continuous, discrete, and geometric data** (Variational Flow Matching), and extend these ideas to large-scale multimodal generative models, with an emphasis on **foundation model integration, distillation, and controllable generation**. I also work on **inference-time control through sampling and reinforcement learning**.
 
