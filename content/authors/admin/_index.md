@@ -46,11 +46,9 @@ profiles:
     url: https://scholar.google.com/citations?user=flooreijkelboom
 
 interests:
-  - Generative AI
-  - Creativity
-  - Physics-Inspired ML
-  - Probabilistic Inference
-  - Philosophy
+  - Generative AI (Flows, Diffusions)
+  - (Multimodal) Foundation Models
+  - Inference-Time Control (Inference and RL)
 
 education:
   - area: PhD in Artificial Intelligence
@@ -152,5 +150,7 @@ awards:
     summary: |
       Recognized for contributions to scaling laws in deep learning.
 ---
+Here's the updated markdown:
 
-I am a **PhD candidate in generative modeling** at the University of Amsterdam, supervised by [**Jan-Willem van de Meent**](https://jwvdm.github.io/) and [**Max Welling**](https://amlab.science.uva.nl/people/MaxWelling/). My research explores **flow matching**, **probabilistic inference**, and **creativity** in deep learning. I developed **Variational Flow Matching**, a framework that unifies diffusion and flow models through variational inference. My goal is to create more **creative models**, with the goal of developing models that go beyond realism, capable of conceptually grounded, semantically rich, and imaginative generation.
+I am a **PhD candidate in generative AI** at the University of Amsterdam, supervised by [**Jan-Willem van de Meent**](https://jwvdm.github.io/) and [**Max Welling**](https://amlab.science.uva.nl/people/MaxWelling/). My research focuses on flow- and diffusion-based generative models. I develop simple, general, and **efficient methods for learning flows over continuous, discrete, and geometric data** (Variational Flow Matching), and extend these ideas to large-scale multimodal generative models, with an emphasis on **foundation model integration, distillation, and controllable generation**. I also work on **inference-time control through sampling and reinforcement learning**.
+

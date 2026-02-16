@@ -44,19 +44,26 @@ sections:
 
         ## Preprint
 
-        **[Purrception: Variational Flow Matching for Vector-Quantized Image Generation](https://arxiv.org/abs/2510.01478)**  
-        Răzvan-Andrei Matişan, Vincent Tao Hu, Grigory Bartosh, Björn Ommer, Cees GM Snoek, Max Welling, Jan-Willem van de Meent, Mohammad Mahdi Derakhshani*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>  
-        *arXiv preprint*
+        **Categorical Flow Maps**  
+        Daan Roos*, Oscar Davis*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Michael Bronstein, Max Welling, İsmail İlkan Ceylan, Luca Ambrogioni, Jan-Willem van de Meent
+        *Under review*
 
-        **[Riemannian Variational Flow Matching for Material and Protein Design](https://arxiv.org/abs/2502.12981)**  
-        Olga Zaghen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Alison Pouplin*, Cong Liu, Max Welling, Jan-Willem van de Meent, Erik J. Bekkers  
-        *arXiv preprint*
 
         **Discovering Lie Groups with Flow Matching**  
         Jung Yeon Park, Yuxuan Chen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Jan-Willem van de Meent, Lawson L.S. Wong, Robin Walters  
         *Under review*
 
         ## Published
+
+
+        **[Purrception: Variational Flow Matching for Vector-Quantized Image Generation](https://arxiv.org/abs/2510.01478)**  
+        Răzvan-Andrei Matişan, Vincent Tao Hu, Grigory Bartosh, Björn Ommer, Cees GM Snoek, Max Welling, Jan-Willem van de Meent, Mohammad Mahdi Derakhshani*, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>  
+        *ICLR 2026*
+
+        **[Riemannian Variational Flow Matching for Material and Protein Design](https://arxiv.org/abs/2502.12981)**  
+        Olga Zaghen, <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom*</span>, Alison Pouplin*, Cong Liu, Max Welling, Jan-Willem van de Meent, Erik J. Bekkers  
+        *ICLR 2026*
+
 
         **[Controlled Generation with Equivariant Variational Flow Matching](https://arxiv.org/abs/2506.18340)**  
         <span style="font-weight: bold; color: #2961ea;">Floor Eijkelboom</span>, Heiko Zimmermann, Sharvaree Vadgama, Erik J Bekkers, Max Welling, Christian A Naesseth*, Jan-Willem van de Meent*  
