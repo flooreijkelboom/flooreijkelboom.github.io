@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://flooreijkelboom.github.io/sitemap.xml
