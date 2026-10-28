@@ -57,7 +57,8 @@ const home = `<section class="home-intro" aria-labelledby="name">
   <div class="home-copy">
     <p class="eyebrow">Generative &amp; Foundation Models</p>
     <h1 id="name">Floor Eijkelboom</h1>
-    <p class="bio">I’m doing my PhD at the University of Amsterdam with <a href="https://jwvdm.github.io/">Jan-Willem van de Meent</a> and <a href="https://amlab.science.uva.nl/people/MaxWelling/">Max Welling</a>, working on generative modeling. My work includes variational flow matching, which extends flow matching to discrete data such as text and molecules. That line of work has since found its way into flow-based language and reasoning models. I also spent time at <a href="https://www.cusp.ai/">CuspAI</a>, working on joint models of text and materials.</p>
+    <p class="bio">I’m doing my PhD at the University of Amsterdam with <a href="https://jwvdm.github.io/">Jan-Willem van de Meent</a> and <a href="https://amlab.science.uva.nl/people/MaxWelling/">Max Welling</a>, working on generative modeling. I’m interested in ideas that travel between physics and machine learning: using insights from physics to build and understand generative models, and in turn using those models to study the physical world.</p>
+    <p class="bio">During my PhD, I developed variational flow matching, which extends flow matching to discrete data such as text and molecules. That line of work has since found its way into flow-based foundation models, such as continuous text diffusion models. I also interned at <a href="https://www.cusp.ai/">CuspAI</a>, working on joint models of text and materials.</p>
     <p class="bio">Outside of work, I’m usually listening to R&amp;B, trying new recipes and restaurants, catching a film, or obsessing over perfume.</p>
     <ul class="profile-links" aria-label="Publications">
       <li><a href="${scholar}">Google Scholar</a></li>
@@ -72,7 +73,7 @@ const home = `<section class="home-intro" aria-labelledby="name">
 </section>`;
 
 await mkdir(out, {recursive:true});
-await writeFile(new URL('index.html', out), shell('main', 'Floor Eijkelboom', 'PhD researcher at the University of Amsterdam, working on generative modeling and variational flow matching.', home));
+await writeFile(new URL('index.html', out), shell('main', 'Floor Eijkelboom', 'Generative and foundation models for understanding the world and enabling scientific discovery. Floor Eijkelboom, PhD researcher at the University of Amsterdam.', home));
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/'].map(path=>`<url><loc>${origin}${path}</loc></url>`).join('')}</urlset>\n`;
 await writeFile(new URL('sitemap.xml',out),sitemap);
