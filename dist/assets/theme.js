@@ -11,7 +11,7 @@
       const dark = root.dataset.theme === 'dark';
       button.setAttribute('aria-label', `Switch to ${dark ? 'light' : 'dark'} mode`);
       button.title = button.getAttribute('aria-label');
-      document.querySelector('meta[name="theme-color"]').content = dark ? '#100F0F' : '#FFFCF0';
+      document.querySelector('meta[name="theme-color"]').content = dark ? '#100F0F' : '#FFFFFF';
     };
     button.hidden = false;
     sync();

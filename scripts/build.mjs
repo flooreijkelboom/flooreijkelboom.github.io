@@ -11,7 +11,7 @@ const urlArgument = process.argv.indexOf('--site-url');
 const origin = (urlArgument > -1 ? process.argv[urlArgument + 1] : process.env.SITE_URL || 'https://flooreijkelboom.github.io').replace(/\/$/, '');
 export const scholar = 'https://scholar.google.com/citations?user=jCWo5lUAAAAJ&hl=en';
 const escape = (value) => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const favicon = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#FFFCF0"/><text x="12" y="48" font-family="Georgia,serif" font-size="48" fill="#205EA6">f.</text></svg>');
+const favicon = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#FFFFFF"/><text x="12" y="48" font-family="Georgia,serif" font-size="48" fill="#205EA6">f.</text></svg>');
 
 function shell(page, title, description, content) {
   const path = page === 'main' ? '/' : `/${page}/`;
@@ -23,7 +23,7 @@ function shell(page, title, description, content) {
   <title>${escape(title)}</title>
   <meta name="description" content="${escape(description)}">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#FFFCF0">
+  <meta name="theme-color" content="#FFFFFF">
   <link rel="canonical" href="${origin}${path}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="${escape(title)}">
