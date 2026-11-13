@@ -132,7 +132,7 @@ main { flex: 1; }
   .home-copy { display: contents; }
   .home-copy .eyebrow { order: 0; margin: 0 0 -.85rem; font-size: .8125rem; }
   .home-copy h1 { order: 1; font-size: clamp(2.35rem, 10.8vw, 3.2rem); }
-  .portrait { order: 2; align-self: flex-start; width: 11rem; margin: .15rem 0 .25rem; }
+  .portrait { order: 2; align-self: center; width: clamp(9rem, 40vw, 11rem); margin: -.25rem 0; }
   .bio { order: 3; font-size: 1rem; line-height: 1.8; margin-top: 0; }
   .currently { order: 4; margin-top: -.5rem; }
   .profile-links { order: 5; gap: .5rem 1.5rem; margin-top: -.4rem; }
