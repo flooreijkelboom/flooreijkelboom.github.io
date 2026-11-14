@@ -69,7 +69,7 @@ const home = `<section class="home-intro" aria-labelledby="name">
     </div>
     <figcaption>
       <span lang="id">di Gunung Bromo</span>
-      <span class="portrait-saying" lang="min" title="Let the world unfold as your teacher.">alam takambang jadi guru</span>
+      <span class="portrait-saying" lang="min" title="Let the world unfold as your teacher — a Minangkabau saying about learning from the world around us.">alam takambang jadi guru</span>
     </figcaption>
   </figure>
 </section>`;
