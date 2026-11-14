@@ -67,7 +67,11 @@ const home = `<section class="home-intro" aria-labelledby="name">
     <div class="portrait-frame">
       <img src="/assets/picture.png?v=${assetVersions['picture.png']}" width="1254" height="1254" alt="Floor Eijkelboom outdoors in a mountainous landscape" fetchpriority="high">
     </div>
-    <figcaption lang="id">di Gunung Bromo <span aria-hidden="true">☀︎</span></figcaption>
+    <figcaption>
+      <span lang="id">di Gunung Bromo <span aria-hidden="true">☀︎</span></span>
+      <span class="portrait-saying" lang="min">Alam takambang jadi guru.</span>
+      <span class="portrait-translation">Nature is our teacher.</span>
+    </figcaption>
   </figure>
 </section>`;
 
