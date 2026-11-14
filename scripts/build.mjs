@@ -69,7 +69,7 @@ const home = `<section class="home-intro" aria-labelledby="name">
     </div>
     <figcaption>
       <span lang="id">di Gunung Bromo</span>
-      <span class="portrait-saying" lang="min">Alam takambang jadi guru.</span>
+      <span class="portrait-saying" lang="min">alam takambang jadi guru</span>
     </figcaption>
   </figure>
 </section>`;
