@@ -68,6 +68,7 @@ main { flex: 1; }
 .portrait-saying:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
 .saying-tooltip { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); z-index: 5; width: 100%; padding: .85rem 1rem; border: 1px solid var(--rule); border-radius: .5rem; background: var(--canvas); color: var(--body); box-shadow: 0 .4rem 2rem rgb(40 39 38 / 8%); font-size: .8125rem; line-height: 1.6; text-align: left; text-wrap: pretty; }
 .saying-tooltip em { display: block; margin-bottom: .4rem; color: var(--ink); }
+.saying-translation-note { display: block; margin-top: .65rem; color: var(--muted); font-size: .75rem; }
 .profile-links { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; padding: 0; margin: 1rem 0 0; list-style: none; }
 .profile-links a { display: inline-flex; align-items: center; gap: .3rem; min-height: 2.75rem; font-size: .9375rem; text-decoration-line: underline; }
 .research-link { display: inline-flex; align-items: center; justify-self: start; min-height: 2.75rem; gap: .8rem; margin-top: 1.15rem; font-size: 1rem; font-weight: 500; line-height: 1.5; text-decoration: none; color: var(--ink); }
