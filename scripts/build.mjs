@@ -70,7 +70,6 @@ const home = `<section class="home-intro" aria-labelledby="name">
     <figcaption>
       <span lang="id">di Gunung Bromo <span aria-hidden="true">☀︎</span></span>
       <span class="portrait-saying" lang="min">Alam takambang jadi guru.</span>
-      <span class="portrait-translation">Nature is our teacher.</span>
     </figcaption>
   </figure>
 </section>`;
