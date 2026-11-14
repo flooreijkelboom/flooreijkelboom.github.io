@@ -69,8 +69,7 @@ const home = `<section class="home-intro" aria-labelledby="name">
     </div>
     <figcaption>
       <span lang="id">di Gunung Bromo</span>
-      <span class="portrait-saying" lang="min">alam takambang jadi guru</span>
-      <span class="portrait-translation">Let the world unfold as your teacher — a Minangkabau saying about learning from the world around us.</span>
+      <span class="portrait-saying" lang="min" title="Let the world unfold as your teacher — a Minangkabau saying reminding us to stay curious and humble, and to learn from nature and everyday life.">alam takambang jadi guru</span>
     </figcaption>
   </figure>
 </section>`;
