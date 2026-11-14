@@ -71,7 +71,7 @@ const home = `<section class="home-intro" aria-labelledby="name">
       <span lang="id">di Gunung Bromo</span>
       <span class="saying-note">
         <button class="portrait-saying" type="button" aria-expanded="false" aria-controls="saying-meaning" aria-describedby="saying-meaning"><span lang="min">alam takambang jadi guru</span><span class="saying-info" aria-hidden="true">ⓘ</span></button>
-        <span class="saying-tooltip" id="saying-meaning" role="tooltip" hidden><strong>Let the world unfold as your teacher.</strong> A Minangkabau saying reminding us to stay curious and humble: observe closely, compare patterns, then judge carefully which lessons apply to the situation at hand.</span>
+        <span class="saying-tooltip" id="saying-meaning" role="tooltip" hidden><em>Let the unfolding world be your teacher.</em> A Minangkabau invitation to meet the world with humility: to look closely, stay curious, and leave room to be surprised.</span>
       </span>
     </figcaption>
   </figure>
