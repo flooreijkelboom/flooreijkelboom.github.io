@@ -68,13 +68,7 @@ const home = `<section class="home-intro" aria-labelledby="name">
     <div class="portrait-frame">
       <img src="/assets/picture.png?v=${assetVersions['picture.png']}" width="1254" height="1254" alt="Floor Eijkelboom outdoors in a mountainous landscape" fetchpriority="high">
     </div>
-    <figcaption>
-      <span lang="id">di Gunung Bromo</span>
-      <span class="saying-note">
-        <button class="portrait-saying" type="button" aria-expanded="false" aria-controls="saying-meaning" aria-describedby="saying-meaning"><span lang="min">alam takambang jadi guru</span><span class="saying-info" aria-hidden="true">ⓘ</span></button>
-        <span class="saying-tooltip" id="saying-meaning" role="tooltip" hidden><em>Let the world unfold as your teacher.</em> A Minangkabau invitation to meet the world with humility: to look closely, stay curious, and leave room to be surprised.</span>
-      </span>
-    </figcaption>
+    <figcaption lang="id">di Gunung Bromo</figcaption>
   </figure>
 </section>`;
 
